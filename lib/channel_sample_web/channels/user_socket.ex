@@ -2,7 +2,7 @@ defmodule ChannelSampleWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "room:*", ChannelSampleWeb.RoomChannel
+  channel "room:*", ChannelSampleWeb.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
